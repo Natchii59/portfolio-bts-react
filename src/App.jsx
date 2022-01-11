@@ -8,7 +8,7 @@ import BtsSio from "./pages/BtsSio/BtsSio";
 
 function App() {
   let location = useLocation();
-  const paths = ["/", "competences", "bts-sio"];
+  const paths = ["/", "/competences", "/bts-sio"];
 
   return (
     <>
