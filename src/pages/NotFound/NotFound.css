@@ -1,0 +1,51 @@
+.notfound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.nf-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nf-title {
+  color: #ff2b2b;
+  font-size: 200px;
+  animation: light 2s steps(100) infinite;
+}
+
+@keyframes light {
+  0% {
+    text-shadow: 0 0 100px #ff2b2b;
+  }
+  50% {
+    text-shadow: 0 0 20px #ff2b2b;
+  }
+  100% {
+    text-shadow: 0 0 100px #ff2b2b;
+  }
+}
+
+.nf-desc {
+  font-size: 30px;
+}
+
+.nf-button {
+  border: solid #3dffd5 3px;
+  color: #3dffd5;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 30px;
+  box-shadow: 15px 15px 1px #3dffd5;
+  transition: box-shadow ease-in-out 0.3s;
+}
+
+.nf-button:hover {
+  box-shadow: 5px 5px 1px #3dffd5;
+}
