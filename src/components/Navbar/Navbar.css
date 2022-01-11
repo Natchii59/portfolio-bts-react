@@ -1,0 +1,27 @@
+nav {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 500px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 8%;
+  left: 50%;
+  transform: translate(-50%, -8%);
+  z-index: 100;
+}
+
+nav .nav-links {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav-links a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
