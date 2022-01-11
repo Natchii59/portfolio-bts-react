@@ -1,40 +1,39 @@
-.text {
-  position: absolute;
-  top: 45%;
-  left: 10%;
-  transform: translate(-10%, -55%);
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.home-text {
   color: white;
   font-family: "Source Code Pro", monospace;
   width: 60vh;
   cursor: default;
 }
 
-.text p {
+.home-text .home-p {
   padding: 20px 0;
 }
 
-.title {
+.home-title {
   font-weight: bold;
   display: flex;
   flex-direction: column;
   font-size: 100px;
 }
 
-.title .letter {
+.home-title .home-letter {
   color: #ff2b2b;
   text-shadow: 6px 0 0 #3dffd5;
   transition: text-shadow ease-in-out 0.25s;
 }
 
-.title .letter:hover {
+.home-title .home-letter:hover {
   text-shadow: 2px 0 0 #3dffd5;
 }
 
-.logo {
-  position: absolute;
-  top: 8%;
-  right: 10%;
-  transform: rotate(-15deg) translate(-10%, -10%);
+.home-logo {
+  transform: rotate(-15deg);
   font-family: "Poppins", sans-serif;
   font-size: 500px;
   font-weight: bold;
@@ -44,6 +43,6 @@
   transition: text-shadow ease-in-out 0.25s;
 }
 
-.logo:hover {
+.home-logo:hover {
   text-shadow: 10px 0 0 #3dffd5;
 }
